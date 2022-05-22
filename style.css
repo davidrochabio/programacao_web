@@ -2,7 +2,6 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:100,200,300");
 
 /* Fonts */
-/**************************/
 #dgr h1 {font-family:'Oswald', sans-serif; font-size:90px; font-weight:400; text-transform: uppercase; color:black; padding:0; margin:0;}
 #dgr h2 {font-family:'Oswald', sans-serif; font-size:70px; letter-spacing:10px; text-align:center; color:red; font-weight:400; text-transform:uppercase; z-index:10; opacity:.9;}
 #dgr h3 {font-family:'Oswald', sans-serif; font-size:28px; line-height:0; font-weight:400; letter-spacing:8px; color:red;}
@@ -10,26 +9,21 @@
 #dgr form {font-family:'Source Sans Pro', sans-serif; font-weight:100; font-size:24px; line-height:24px;}
 
 /* Title */
-/**************************/
 #dgr .title {background: white; padding: 60px; margin:0 auto; text-align:center;}
 #dgr .title h1 {font-size:90px; letter-spacing:8px;}
 #dgr .title h2 {font-size:50px; letter-spacing:8px;}
 #dgr .title h3 {font-size:30px; letter-spacing:8px; color:black;}
 
 /* Section - Block */
-/**************************/
 #dgr .block {background: white; padding: 60px; width:1000px; margin:0 auto; text-align:justify;}
 
 /* Section - Content */
-/**************************/
 #dgr .one {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url(https://f.hubspotusercontent10.net/hubfs/5938567/people-analytics.jpg); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: top center;}
             
 /* Line */
-/**************************/
 #dgr .line-break {border-bottom:1px solid black; width: 300px; margin:0 auto;}
 
 /* Devices */
-/**************************/
 @media screen and (max-width: 959px) and (min-width: 768px) {
 #dgr .block {padding: 40px; width:620px;}
 }
